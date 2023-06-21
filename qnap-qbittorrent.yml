@@ -10,7 +10,7 @@ services:
       - TZ=Europe/Warsaw
       - WEBUI_PORT=9092
     volumes:
-      - /share/BigChungus/qBittorent:/config
+      - /share/BigChungus/config/qBittorrent:/config
       - /share/BigChungus:/downloads
     ports:
       - 9092:9092
